@@ -67,4 +67,3 @@ npm start
 📊 Dashboard: View XP, current level, and your last submitted mood
 
 🧭 React Router: Navigation between pages\
-3. 
