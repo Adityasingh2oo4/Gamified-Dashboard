@@ -5,9 +5,11 @@ A fun and interactive dashboard where users can log in, track their daily mood, 
 1. Clone the repository
 
 git clone https://github.com/BhagyashreeDev/gamified-dashboard.git
+
 cd gamified-dashboard
 
 npm install
+
 Set up Firebase
 
 Go to your Firebase Console
@@ -24,11 +26,15 @@ Replace your Firebase config in src/firebase.js like this:
     // src/firebase.js
 
 import { initializeApp } from "firebase/app";
+
 import { getAuth } from "firebase/auth";
+
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
+
   apiKey: "YOUR_API_KEY",
+  
   authDomain: "YOUR_AUTH_DOMAIN",
   projectId: "YOUR_PROJECT_ID",
   storageBucket: "YOUR_STORAGE_BUCKET",
